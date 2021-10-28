@@ -125,10 +125,13 @@ a:visited{
         justify-content: space-between;
     }
 
+    nav {
+        width: 100%;
+    }
+
     .nav_links {
-        display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     .pricing {
@@ -156,7 +159,11 @@ a:visited{
         display: none;
     }
 
-    .card li:before {
+    .card ul li:nth-child(odd):before {
+        content: '\1F44D';
+    }
+
+    .card ul li:nth-child(even):after {
         content: '\1F44D';
     }
 
