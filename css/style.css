@@ -77,13 +77,9 @@ a:visited{
     header {
         display: flex;
         flex-direction: row;
-        justify-content: end;
+        justify-content: space-between;
         position: fixed;
         width: 100%;
-    }
-
-    #logo {
-        margin-right: auto;
     }
 
     .nav_links {
@@ -126,12 +122,13 @@ a:visited{
 
     header {
         width: 100%;
+        justify-content: space-between;
     }
 
     .nav_links {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
     .pricing {
